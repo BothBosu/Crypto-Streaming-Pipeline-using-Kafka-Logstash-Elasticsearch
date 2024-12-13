@@ -17,6 +17,7 @@ The project’s architecture consists of the following steps:
 4. **Indexing & Visualization:** Processed data is stored in Elasticsearch and visualized on a Kibana dashboard to enable real-time insights.
 
 ![Data Pipeline](https://github.com/user-attachments/assets/a8285119-7c6e-491e-9fda-4b8d334156a9)
+![image](https://github.com/user-attachments/assets/fb35622d-ff06-4a70-8fb9-ecd03ea32824)
 
 ---
 
@@ -47,8 +48,8 @@ Data from the Binance WebSocket API is structured as follows:
 
 1. **Clone the Repository:**
    ```bash
-   git 
-   cd 
+   git clone https://github.com/BothBosu/Crypto-Streaming-Pipeline-using-Kafka-Logstash-Elasticsearch.git
+   cd .\Crypto-Streaming-Pipeline-using-Kafka-Logstash-Elasticsearch\
 
 2. **Run Docker Containers:**
      ```bash
@@ -57,7 +58,7 @@ Data from the Binance WebSocket API is structured as follows:
 
 3. **Start the Producers:**
    ```bash
-  python producer/kafka_crypto_producer.py
+   python producer/kafka_crypto_producer.py
    ```
 
 4. **Access Kibana Dashboard:** Open Kibana at http://localhost:5601 and explore the visualized data.
