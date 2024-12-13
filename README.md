@@ -61,4 +61,4 @@ Data from the Binance WebSocket API is structured as follows:
    python producer/kafka_crypto_producer.py
    ```
 
-4. **Access Kibana Dashboard:** Open Kibana at http://localhost:5601 and explore the visualized data.
+4. **Access Kibana Dashboard:** Open Kibana at http://localhost:5601 
